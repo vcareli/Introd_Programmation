@@ -1,8 +1,8 @@
 //Transposta
 public class MatrizTransposta {
 
-	public static int[][] transposta(int[][] matriz, int tamanho) {
-		int[][] transp = new int[tamanho][tamanho];
+	public static int[][] transposta(int[][] matriz) {
+		int[][] transp = new int[matriz.length][matriz.length];
 		for (int i = 0; i < matriz.length; i++) {
 			for (int j = 0; j < matriz.length; j++) {
 				transp[i][j] = matriz[j][i];
@@ -24,7 +24,7 @@ public class MatrizTransposta {
 		System.out.println();
 		System.out.println("Matriz transposta");
 		System.out.println();
-		int[][] nova_q = transposta(quadrada, quadrada.length);
+		int[][] nova_q = transposta(quadrada);
 		for (int i = 0; i < nova_q.length; i++) {
 			for (int j = 0; j < nova_q.length; j++) {
 				System.out.print(nova_q[i][j] + " ");
