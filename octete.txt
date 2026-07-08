@@ -1,2 +1,3 @@
 octete - Exemple:
-Le programme Java suivant lit le contenu du fichier en consommant les octets, un octet à la fois, par l’utilisation de la classe FileInputStream et compte le nombre d’octets contenus dans le fichier.
+Le programme Java suivant lit le contenu du fichier en consommant les octets, un octet à la fois, 
+par l’utilisation de la classe FileInputStream et compte le nombre d’octets contenus dans le fichier.
