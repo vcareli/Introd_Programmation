@@ -1,3 +1,4 @@
+//Exercice liee Patient.java
 public class Medecin {
 	private String nom;
 	private String specialite;
