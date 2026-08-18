@@ -84,6 +84,6 @@ public class Patient {
 		System.out.println("=======================");
 		System.out.println(p3);
 		System.out.println("=======================");
-		//System.out.println("Total patients de " + m1.getNom() + m1.sizeClients());
+		System.out.println("Total patients de " + m1.getNom() + m1.sizeClients());
 	}
 }
