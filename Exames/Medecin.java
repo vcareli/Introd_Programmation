@@ -15,6 +15,7 @@ public class Medecin {
 	}
     
 	public Medecin(String nom, int registre) {
+  clientes = new ArrayList<>();
 		this.nom = nom;
 		this.specialite = "GENERAL";
 		this.registre = registre;
