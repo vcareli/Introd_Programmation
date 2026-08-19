@@ -1,4 +1,5 @@
 //Exercice liee Medecin.java
+package Medecin.java;
 import java.util.*;
 
 public class Patient {

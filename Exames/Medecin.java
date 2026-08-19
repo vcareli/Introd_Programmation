@@ -2,11 +2,11 @@
 import java.util.*;
 
 public class Medecin {
+	private ArrayList<Patient> clients;
 	private String nom;
 	private String specialite;
 	private int registre;
-	private ArrayList<Patient> clients;
-
+	
 	public Medecin(String nom, String specialite, int registre) {
 		clients = new ArrayList<>();
 		this.nom = nom;
@@ -15,7 +15,7 @@ public class Medecin {
 	}
     
 	public Medecin(String nom, int registre) {
-  clientes = new ArrayList<>();
+		clients = new ArrayList<>();
 		this.nom = nom;
 		this.specialite = "GENERAL";
 		this.registre = registre;
@@ -43,5 +43,11 @@ public class Medecin {
 	
 	public int sizeClients() {
 		return this.clients.size();
+	}
+	
+	@Override
+	public String toString() {
+		String ret = "Medecin : " + this.nom + " - Specialite : " + this.specialite + "\n";
+		return ret;
 	}
 }
